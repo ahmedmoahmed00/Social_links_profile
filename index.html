@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Googel Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+  <style>
+    *
+    {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: "Inter";
+    }
+
+    .parent
+    {
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .parent .child
+    {
+      background-color: hsl(0, 0%, 12%);
+      width: 350px;
+      height: 60%;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .parent .child .image img
+    {
+      width: 80px;
+      height: 80px;
+      border-radius:50%;
+      margin-top:40px ;
+      margin-bottom: 20px;
+    }
+    
+    .parent .child .text
+    {
+      color: white;
+    }
+
+    .parent .child .text h2
+    {
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .parent .child .text p
+    {
+      font-size: 14px;
+    }
+
+    .parent .child .text p:nth-of-type(1)
+    {
+      color: hsl(75, 94%, 57%);
+      margin-bottom: 25px;
+    }
+
+    .parent .child .text p:nth-of-type(2)
+    {
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 20px;
+    }
+
+    .parent .child .buttons
+    {
+      width: 80%;
+      margin: auto;
+    }
+    .parent .child .buttons a
+    {
+      display: block;
+      
+      padding: 12px 30px;
+      background-color:  hsl(0, 0%, 20%);
+      margin-bottom:15px;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      border-radius: 10px;
+    }
+
+    .parent .child .buttons a:hover
+    {
+      background-color: hsl(75, 94%, 57%);
+      color:hsl(0, 0%, 20%);
+    }
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="parent">
+    <div class="child">
+      <div class="image">
+        <img src="assets/images/avatar-jessica.jpeg" alt="">
+      </div>
+      <div class="text">
+        <h2>Jessica Randall</h2>
+        <p>London, United Kingdom</p>
+        <p>"Front-end developer and avid reader."</p>
+      </div>
+      <div class="buttons">
+        <a href="#">GitHub</a>
+        <a href="#">Frontend Mentor</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
